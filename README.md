@@ -14,9 +14,9 @@ the evaluated code into Sonic Pi code. The first step is the parsing of a .edmds
 will write their song into a .edmdsl file and it may look something like the following:
 
 ```
-drumbass = 10 * = X :j O :j X :j O;
-drumsnare = 10 * = X :j X :j O :j X;
-drumcymbal = 10 * = O :j O :j X :j O;
+drumbass = 10 * = X :| O :| X :| O;
+drumsnare = 10 * = X :| X :| O :| X;
+drumcymbal = 10 * = O :| O :| X :| O;
 bassTrack = drum_bass_hard drumbass;
 snareTrack = drum_snare_hard drumsnare;
 cymbalTrack = drum_cymbal_closed drumcymbal;
