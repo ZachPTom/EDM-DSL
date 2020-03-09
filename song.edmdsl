@@ -1,0 +1,13 @@
+bladeP = 10 *= O :| O :| X :| O;
+
+pluck = 10 *= X :| O :| X :| X;
+
+pulseP = 10 *= X :| O :| O :| O;
+
+supersawTrack = pulse pluck;
+
+pulseTrack = pulse pulseP;
+
+bladeTrack = blade bladeP;
+
+finalsong = := pulseTrack := bladeTrack

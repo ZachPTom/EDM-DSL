@@ -1,0 +1,13 @@
+drumbass = 10 *= X :| O :| X :| O;
+
+drumsnare = 10 *= X :| X :| O :| X;
+
+drumcymbal = 10 *= O :| O :| X :| O;
+
+bassTrack = drum_bass_hard drumbass;
+
+snareTrack = drum_snare_hard drumsnare;
+
+cymbalTrack = drum_cymbal_closed drumcymbal;
+
+beatSong = := bassTrack := snareTrack := cymbalTrack
