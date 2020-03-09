@@ -1,12 +1,3 @@
-{-
-  Name: <Zach Tom>
-  Class: CS 252
-  Date: <11-6-19>
-  Project: EDMDSL
-  Description: <Domain specific language for generating electronic dance music>
--}
-
-
 module EDMDSL (
   Pattern(..),
   Track(..),
